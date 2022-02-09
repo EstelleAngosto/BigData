@@ -1,0 +1,23 @@
+DATABASE CovidCountry
+
+
+CREATE TABLE Covid_value_country (
+	country VARCHAR(50) NOT NULL,
+	countryAlphaCode VARCHAR(30),
+	date DATE NOT NULL,
+	confirmedCase INT,
+	deaths INT,
+	recoveries INT,
+	confirmedInc INT,
+	deathInc INT,
+	recoveriesINC INT,
+	ECR DOUBLE,
+	GTR DUBLE,
+	daySince1Case INT,
+	daySince100Cases INT,
+	confirmed_PopPct DOUBLE,
+	deaths_PopPct DOUBLE,
+	recoveries_PopPct DOUBLE,
+	PRIMARY KEY (country),
+	PRIMARY KEY (date)
+)
