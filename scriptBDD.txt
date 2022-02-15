@@ -1,4 +1,4 @@
-DATABASE CovidCountry
+CREATE DATABASE CovidCountry;
 
 
 CREATE TABLE Covid_value_country (
@@ -20,4 +20,4 @@ CREATE TABLE Covid_value_country (
 	recoveries_PopPct DOUBLE,
 	PRIMARY KEY (country),
 	PRIMARY KEY (date)
-)
+);
